@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  position: fixed;
+  list-style: none;
+  right: 5vw;
+  top:3vh;
+}
+ul li{
+  display: inline-block;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-left:10px;
+  }
+ul li a {
+  padding: 50px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#section_one{
+  height: 100vw;
+  width: 100%;
+  background-color: red;
+}
